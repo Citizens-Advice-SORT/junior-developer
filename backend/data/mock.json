@@ -1,0 +1,106 @@
+[
+    {
+        "category": "consumer_goods_and_services",
+        "sources": [
+            {
+                "id": "GOMgBJgBBLViOYD198L",
+                "title": "What to do if your mobile phone is lost or stolen - Citizens Advice",
+                "source": "https://citizensadvice.org.uk/consumer/phone-internet-downloads-or-tv/what-to-do-if-your-mobile-phone-is-lost-or-stolen"
+            },
+            {
+                "id": "Qp7vZkLm8sXyTn2aWEr",
+                "title": "Dispute a mobile, phone, internet or TV bill - Citizens Advice",
+                "source": "https://www.citizensadvice.org.uk/consumer/phone-internet-downloads-or-tv/dispute-a-phone-internet-or-tv-bill/"
+            },
+            {
+                "id": "Xy9aLm2Qp7vZk8sTnEr",
+                "title": "If you’re struggling to pay your phone, internet or TV bill - Citizens Advice",
+                "source": "https://www.citizensadvice.org.uk/consumer/phone-internet-downloads-or-tv/if-youre-struggling-to-pay-your-mobile-phone-internet-or-tv-bill/"
+            },
+            {
+                "id": "Ab3cDe4Fg5Hi6Jk7LmN",
+                "title": "Burglary, theft, damaged property, assault or another incident",
+                "source": "https://www.police.uk/pu/contact-us/theft-damaged-property-or-assault/"
+            }
+        ],
+        "content": "If your client's mobile phone was stolen last Friday, they should take the following steps based on the information available <ref>GOMgBJgBBLViOYD198L</ref>:\n\n<b>1. Report the stolen phone to their network provider immediately.</b> This allows the provider to block the phone and prevent unauthorised use. Failing to report promptly may result in charges for unauthorised calls.<ref>Qp7vZkLm8sXyTn2aWEr</ref>\n\n<b>2. Report the theft to the police.</b> Your client should visit their local police station or call 101 to file a report. They will need to provide the phone's identification number (IMEI), which the network provider can supply.<ref>Ab3cDe4Fg5Hi6Jk7LmN</ref>\n\n<b>3. Get a crime reference number from the police.</b> This will be required if your client needs to make an insurance claim for the stolen phone."
+    },
+    {
+        "category": "benefits_and_tax_credits",
+        "sources": [
+            {
+                "id": "YuMmBJgBBLViOYD1Uvxj",
+                "title": "If you think your ESA decision is wrong - mandatory reconsideration - Citizens Advice",
+                "source": "https://citizensadvice.org.uk/benefits/sick-or-disabled-people-and-carers/employment-and-support-allowance/problems-with-esa/challenging-an-esa-decision"
+            },
+            {
+                "id": "oeMPBJgBBLViOYD1c8j3",
+                "title": "Employment and Support Allowance (ESA) - Citizens Advice",
+                "source": "https://citizensadvice.org.uk/benefits/sick-or-disabled-people-and-carers/employment-and-support-allowance"
+            },
+            {
+                "id": "4Q8BJgBBLViOYD19zKl",
+                "title": "If your ESA is stopped or reduced - Citizens Advice",
+                "source": "https://www.citizensadvice.org.uk/benefits/sick-or-disabled-people-and-carers/employment-and-support-allowance/problems-with-esa/esa-stopped-or-reduced/"
+            },
+            {
+                "id": "4OMhBJgBBLViOYD1Qu9S",
+                "title": "Employment and Support Allowance (ESA) - GOV.UK",
+                "source": "https://www.gov.uk/employment-support-allowance/what-youll-get"
+            }
+        ],
+        "content": "<b>If your client's Employment and Support Allowance (ESA) was stopped but the reason is unknown, they have a few key options:</b>\n\n<b>1. Request a mandatory reconsideration</b>\nYour client can ask the Department for Work and Pensions (DWP) to reconsider their decision within 1 month of the decision date. They should explain why they disagree with the reasons given for stopping their ESA and provide any new evidence. <ref>YuMmBJgBBLViOYD1Uvxj</ref>\n\n<b>2. Make a new ESA claim</b>\nIf your client's condition has worsened or they have developed a new condition since the decision, they could make a new claim for ESA. This may allow them to start receiving payments sooner while awaiting the mandatory reconsideration outcome. <ref>YuMmBJgBBLViOYD1Uvxj</ref>\n\n<b>3. Check eligibility for other benefits</b>\nIf unable to get ESA reinstated, your client could check their potential eligibility for other income-based benefits like Universal Credit based on their current circumstances. <ref>oeMPBJgBBLViOYD1c8j3</ref>"
+    },
+    {
+        "category": "debt",
+        "sources": [
+            {
+                "id": "3eMNBJgBBLViOYD1s8TV",
+                "title": "Debt solutions - Citizens Advice",
+                "source": "https://www.citizensadvice.org.uk/debt-and-money/debt-solutions/"
+            },
+            {
+                "id": "dOQ-BJgBBLViOYD1OzWM",
+                "title": "Debt management plans - what you need to know - Citizens Advice",
+                "source": "https://citizensadvice.org.uk/debt-and-money/debt-solutions/debt-management-plans/debt-management-plans-explained/debt-management-plans-what-you-need-to-know"
+            },
+            {
+                "id": "D-QxBJgBBLViOYD1fxhV",
+                "title": "Check if going bankrupt is right for you - Citizens Advice",
+                "source": "https://www.citizensadvice.org.uk/debt-and-money/debt-solutions/bankruptcy/before-you-go-bankrupt/check-if-going-bankrupt-is-right-for-you/"
+            },
+            {
+                "id": "reTwBZgBBLViOYD1O2Mw",
+                "title": "Debt relief orders - what you need to know - Citizens Advice",
+                "source": "https://www.citizensadvice.org.uk/debt-and-money/debt-solutions/debt-relief-orders/debt-relief-orders-explained/debt-relief-orders-what-you-need-to-know/"
+            }
+        ],
+        "content": "For a client with a £13,000 debt, there are several potential options to consider based on the information available <ref>3eMNBJgBBLViOYD1s8TV</ref>:\n\n<b>Debt Management Plan (DMP)</b>: This allows the client to make one affordable monthly payment to a DMP provider, who distributes it to creditors. While it may take longer to pay back the debt, interest and charges may continue accruing. The DMP provider could charge a fee, but there are free options like those offered by charities like Citizens Advice <ref>dOQ-BJgBBLViOYD1OzWM</ref>.\n\n<b>Debt Relief Order (DRO)</b>: If the client has a low income, little spare income, and assets under £1,000, they may qualify for a DRO. This freezes interest and charges for a year, after which the debt is written off if circumstances haven't improved.\n\n<b>Bankruptcy</b>: For larger debts where the client cannot afford payments, bankruptcy may be an option to write off most debts after assets are used to pay creditors. This has serious implications like losing assets and impacting credit rating.\n\nIt's crucial the client seeks free, impartial <b>debt advice</b> from Citizens Advice or other charities to understand all options based on their full financial circumstances <ref>dOQ-BJgBLViOYD1OzWM</ref>."
+    },
+    {
+        "category": "gva_and_hate_crime",
+        "sources": [
+            {
+                "id": "YuMVBJgBBLViOYD1_tfV",
+                "title": "Reporting a hate crime or hate incident to the police - Citizens Advice",
+                "source": "https://citizensadvice.org.uk/law-and-courts/discrimination/hate-crime/how-to-report-a-hate-incident-or-hate-crime"
+            },
+            {
+                "id": "luQqBJgBBLViOYD1tAeR",
+                "title": "Check if you've experienced a hate crime or hate incident - Citizens Advice",
+                "source": "https://citizensadvice.org.uk/law-and-courts/discrimination/hate-crime/what-are-hate-incidents-and-hate-crime"
+            },
+            {
+                "id": "luMZBJgBBLViOYD1x9",
+                "title": "Discrimination because of sexual orientation - Citizens Advice",
+                "source": "https://www.citizensadvice.org.uk/law-and-courts/discrimination/discrimination-because-of-sex-or-sexual-orientation/discrimination-because-of-sexual-orientation/"
+            },
+            {
+                "id": "RFBJgBBLViOYD1XEVL",
+                "title": "Report hate crime - GOV.UK",
+                "source": "https://www.gov.uk/report-hate-crime"
+            }
+        ],
+        "content": "Based on the information available, your client has experienced a <b>hate crime</b> due to their sexuality. A hate crime is defined as a crime motivated by prejudice against someone's sexuality <ref>luQqBJgBBLViOYD1tAeR</ref>. As the incident occurred on Saturday night in Manchester city centre, there are support options your client can access:\n\n<b>Reporting the incident:</b> Your client can report the hate crime to the police, who must record it as a hate incident if they believe it was motivated by prejudice against their sexuality <ref>YuMVBJgBBLViOYD1_tfV</ref>. The police will provide an incident reference number and may investigate further if a crime has occurred.\n\n<b>Victim support:</b> The police can refer your client to Victim Support, an independent charity that provides emotional and practical support to victims of crime <ref>YuMVBJgBBLViOYD1_tfV</ref>. This could include help repairing any property damaged during the incident.\n\n<b>Local support services:</b> There may be local hate crime support services in Manchester that can provide specific advice and assistance for victims of hate crimes motivated by sexuality. The adviser could check what services are available in the local area."
+    }
+]

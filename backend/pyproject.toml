@@ -1,0 +1,18 @@
+[project]
+name = "junior-developer-backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Citizens Advice SORT",email = "technology@casort.org"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard] (>=0.116.1,<0.117.0)",
+    "pydantic (>=2.11.7,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
