@@ -1,6 +1,7 @@
 [
     {
         "category": "consumer_goods_and_services",
+        "question": "My client Sarah Jones had her mobile phone stolen last Friday. What should she do? Sarah's number is 07700 900123 and her email is sarah.jones@example.com.",
         "sources": [
             {
                 "id": "GOMgBJgBBLViOYD198L",
@@ -27,6 +28,7 @@
     },
     {
         "category": "benefits_and_tax_credits",
+        "question": "Daniel Okafor's ESA has been stopped and he doesn't know why. What are his options? He can be contacted on 07700 900456 or at d.okafor@example.co.uk.",
         "sources": [
             {
                 "id": "YuMmBJgBBLViOYD1Uvxj",
@@ -53,6 +55,7 @@
     },
     {
         "category": "debt",
+        "question": "My client Priya Shah has £13,000 of debt and is struggling to keep up with repayments. What can she do? Her phone number is 0161 496 0789 and her email is priya.shah@example.com.",
         "sources": [
             {
                 "id": "3eMNBJgBBLViOYD1s8TV",
@@ -79,6 +82,7 @@
     },
     {
         "category": "gva_and_hate_crime",
+        "question": "Tom Reid was verbally abused because of his sexuality on Saturday night in Manchester city centre. What support can he get? You can reach Tom at tom.reid@example.org or 07700 900789.",
         "sources": [
             {
                 "id": "YuMVBJgBBLViOYD1_tfV",

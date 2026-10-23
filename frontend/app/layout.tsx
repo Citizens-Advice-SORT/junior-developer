@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
+
 import "./globals.css";
 
 const openSans = Open_Sans({
@@ -9,17 +10,17 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "Junior Developer | CASORT",
-  description: "Citizens Advice SORT Junior Developer Test",
+  description: "Citizens Advice SORT Junior Developer practical",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en">
-      <body className={`${openSans.variable} antialiased`}>{children}</body>
+      <body
+        className={`${openSans.variable} min-h-dvh bg-background font-sans text-foreground antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

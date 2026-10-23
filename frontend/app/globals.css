@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #004b88;
+  --color-foreground: #ffffff;
+  --font-sans: var(--font-open-sans);
+}

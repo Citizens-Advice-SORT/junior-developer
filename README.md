@@ -1,126 +1,57 @@
 <div align="center">
-  <img src="frontend/public/logo.png" alt="Citizens Advice Logo" width="100" height="100" />
-    <h1>Citizens Advice SORT</h1>
-    <h3>Junior Developer Practical</h3>
+  <img src="frontend/public/logo.png" alt="Citizens Advice" width="100" height="100" />
+  <h1>Citizens Advice SORT</h1>
+  <h3>Junior Developer Practical</h3>
 </div>
 
----
+A small full-stack app: a **FastAPI** backend (Python) and a **Next.js** frontend (TypeScript).
 
-## Overview
+The app shows answers to advisers' questions, along with the sources each answer is based on. Your job is to finish it. [TASK.md](TASK.md) explains what to build.
 
-This is a full stack practical for Junior Developer at Citizens Advice SORT. The project consists of a full-stack application with a Python backend and Next.js frontend.
-
-## Project Structure
+## Project structure
 
 ```
 junior-developer/
-├── backend/
-│   ├── data/
-│   │   └── mock.json         # Mock data containing content and sources
-│   ├── main.py               # FastAPI backend server
-│   └── models.py             # Data models and schemas
-├── frontend/
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── page.tsx      # Main page component
-│   │   │   └── layout.tsx    # App layout
-│   │   └── components/
-│   │       └── Content.tsx   # Content display component
-│   └── public/
-│       └── logo.png          # Citizens Advice logo
-└── Makefile                  # Build and run commands
+├── backend/                 FastAPI app (Python, managed with uv)
+│   ├── app/                 The API, including GET /data
+│   └── data/mock.json       The questions, answers and sources
+├── frontend/                Next.js app (TypeScript, Tailwind)
+│   ├── app/page.tsx         The home page
+│   └── components/          Content.tsx shows one item from the data
+├── Makefile                 Shortcut commands (install, dev)
+├── SETUP.md                 How to install the tools and get the app running
+└── TASK.md                  What to build
 ```
 
-## Task Description
+## The task
 
-### Backend Task
+[TASK.md](TASK.md) has the full instructions.
 
-In the backend, you need to:
+**Backend.** In the backend, you need to:
 
-1. **Identify cited sources** within the content from `mock.json`
-2. **Replace document IDs** with actual links to the sources
-3. **Extract favicon URLs** from the source websites
+1. Work out which sources each answer cites, and replace each `<ref>` with a link.
+2. Get a favicon for each source's website.
+3. Redact the client's name, email and phone number from each question.
 
-### Frontend Task
+**Frontend.** In `Content.tsx`, show each item:
 
-The `Content.tsx` component has been provided for you to:
+1. The redacted question.
+2. The answer, with working citation links.
+3. Every source, cited and not cited, with its favicon.
 
-1. **Display each piece of content** and its associated sources, both cited and non-cited
-2. **Show favicons** from the source websites alongside each source
-3. **Create a clean, user-friendly interface**
+## Getting set up
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.10+
-- Node.js 18+
-- npm
-- [poetry](https://python-poetry.org/docs/#installation)
-
-### Installation & Setup
-
-1. **Clone the repository - DO NOT FORK**
-
-   ```bash
-   git clone https://github.com/Citizens-Advice-SORT/junior-developer.git
-   cd junior-developer
-   ```
-
-2. **Install backend dependencies**
-
-   ```bash
-   cd backend
-   poetry install --no-root
-   ```
-
-3. **Install frontend dependencies**
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-### Running the Application
-
-Use the provided Makefile for easy setup:
+Follow [SETUP.md](SETUP.md) to install the tools you need and get the app running. The first run downloads the redaction model, [fastino/GLiNER2-Guardrails-PII-Multi](https://huggingface.co/fastino/GLiNER2-Guardrails-PII-Multi) (about 1.2 GB).
 
 ```bash
-# Install all dependencies
 make install
-
-# Run both frontend and backend
 make dev
-
-# OR INDIVIDUALLY
-# Start the backend server
-make run-backend
-
-# Start the frontend development server
-make run-frontend
 ```
 
-Or run manually:
-
-**Backend:**
-
-```bash
-cd backend
-poetry run fastapi dev main.py
-```
-
-**Frontend:**
-
-```bash
-cd frontend
-npm run dev
-```
-
-## API Endpoints
-
-- `GET /data` - Returns the list of data
-
-## Submission
-
-Please respond to the invitation email with a link to your complete repository.
+| What | URL |
+|---|---|
+| Backend | http://localhost:8000 |
+| API docs | http://localhost:8000/docs |
+| Frontend | http://localhost:3000 |
 
 > If you have any problems or are unsure about any of the steps please email technology@casort.org
